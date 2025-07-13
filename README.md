@@ -56,3 +56,56 @@ Each book has the following attributes:
 git clone https://github.com/Pramod-Patil123/library1.git
 cd library1
 
+
+2️⃣ Run using Spring Boot
+If it's a Spring Boot app, use:
+
+bash
+Copy code
+./mvnw spring-boot:run
+or open in IntelliJ IDEA/VS Code and run LibraryApplication.java.
+
+📬 Sample Requests (If REST API used)
+➕ Add Book:
+POST /books
+
+json
+Copy code
+{
+  "id": 1,
+  "title": "Effective Java",
+  "author": "Joshua Bloch",
+  "isbn": "9780134685991",
+  "available": true
+}
+📚 Get All Books:
+GET /books
+
+🔍 Get Book by ID:
+GET /books/1
+
+❌ Delete Book:
+DELETE /books/1
+
+♻️ Update Availability:
+PATCH /books/1/availability?status=false
+
+✅ Bonus
+✅ Code is encapsulated using Service, Controller, and Repository layers.
+
+✅ Validations applied (e.g., title should not be empty).
+
+✅ Optional: Postman Collection link can be added.
+
+🔗 GitHub Repository
+📂 View Project on GitHub
+
+👨‍💻 Author
+Pramod Ratilal Patil
+📧 pramodrp0202@gmail.com
+📱 +91 9130667095
+
+🏢 Company
+Biz Digital IT Services Pvt. Ltd.
+Reputable AWS & Zoho partner delivering innovative IT solutions.
+
