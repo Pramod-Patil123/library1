@@ -58,7 +58,7 @@ This is a simple Spring Boot RESTful backend service for managing books in a lib
 }
 
 ### 🛠️ Setup Instructions
-git clone https://github.com/Rohit-Koli/library.git
+git clone https://github.com/Pramod-Patil123/library1.git
 
 cd library 
 
@@ -70,4 +70,4 @@ Access API via Postman or browser
 http://localhost:8081/books/getAllBooks
 
 ### ✍️ Author
-##  ROHIT KOLI
+## PRAMOD PATIL
